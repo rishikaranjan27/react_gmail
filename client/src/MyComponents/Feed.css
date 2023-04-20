@@ -1,0 +1,69 @@
+
+.feed {
+    /* flex: 0.95; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 230px;;
+    width: 90%;
+}
+
+.feedBodyOptions {
+    overflow-y: scroll;
+}
+
+
+.feedHeader {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+/* FeedOption.js */
+
+
+
+.feedOption {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    width: 20%;
+
+}
+
+
+/* FeedBody.js */
+
+.feedBody {
+    display: flex;
+    align-items: center;
+    border-top: 1.5px solid #e6e7ea;
+}
+
+.feedBody:hover {
+    box-shadow: 2px 2px 2px 2px rgb(237, 237, 237);
+    cursor: pointer;
+}
+
+.feedBodyIcons {
+    display: flex;
+    /* border: 1px solid lightgray; */
+    /* flex: 0.1; */
+}
+
+.feedBodySender {
+    /* border: 1px solid lightgray; */
+    /* flex: 0.3; */
+}
+
+.feedBodyDesc {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid lightgray; */
+    /* flex: 0.5; */
+}
+
+/* .feedBodyTime {
+    border: 1px solid lightgray;
+    flex: 0.1;
+} */

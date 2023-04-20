@@ -1,0 +1,15 @@
+
+.rightSide {
+    width: 50px;
+    padding-left: 25px;
+
+}
+
+
+/* RightSideOption.js */
+.rightSideOption > img {
+    width: 20px;
+    height: 20px;
+    padding-top: 30px;
+
+}
